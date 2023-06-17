@@ -1,0 +1,14 @@
+
+a = []
+cnt = [0]*10
+
+for i in range (10):
+    c = eval(input())
+    a.append(c)
+    cnt[a.index(c)] += 1
+
+max  = max(cnt)
+print(a[cnt.index(max)])
+print(max)
+
+

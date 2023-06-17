@@ -1,0 +1,11 @@
+def compute(n):
+    a = 0
+    b = 1
+    print("%d %d " %(a , b), end= "" )
+    for i in range(3 , n+1):
+        n3 = a+b
+        print("%d " % (n3), end = "")
+        a = b
+        b = n3
+num = eval(input())
+compute(num)

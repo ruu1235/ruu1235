@@ -1,0 +1,7 @@
+def QQ(a , b):
+    return a * b
+
+a = eval(input())
+b = eval(input())
+
+print(QQ(a , b))
